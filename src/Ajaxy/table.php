@@ -2,6 +2,10 @@
 
 namespace Ajaxy;
 
+if(!defined(ABSPATH)){
+    die('Ajaxy/WP_List_table packageis intended to be used with wordpress');
+}
+
 if (!class_exists('WP_List_Table')) {
     require_once ABSPATH.'wp-admin/includes/class-wp-list-table.php';
 }

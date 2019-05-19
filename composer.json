@@ -19,7 +19,7 @@
     "conflict": {
     },
     "autoload": {
-        "psr-4": { "Ajaxy\\WP_List_Table\\": "/src" },
+        "psr-4": { "Ajaxy\\List_Table\\": "/src" },
         "exclude-from-classmap": [
             "/tests/"
         ]
