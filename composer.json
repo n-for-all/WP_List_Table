@@ -1,0 +1,28 @@
+{
+    "name": "ajaxy/wp-list-table",
+    "type": "ajaxy",
+    "description": "Ajaxy wrapper for wp list table",
+    "keywords": [],
+    "homepage": "https://ajaxy.org",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Naji Amer",
+            "email": "contact@ajaxy.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+    },
+    "conflict": {
+    },
+    "autoload": {
+        "psr-4": { "Ajaxy\\WP_List_Table\\": "/src" },
+        "exclude-from-classmap": [
+            "/tests/"
+        ]
+    },
+    "minimum-stability": "stable"
+}
