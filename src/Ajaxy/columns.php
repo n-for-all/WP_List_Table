@@ -1,6 +1,6 @@
 <?php
 
-namespace Ajaxy;
+namespace Ajaxy\WP;
 
 class List_Table_Columns
 {

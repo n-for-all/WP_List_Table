@@ -1,9 +1,9 @@
 <?php
 
-namespace Ajaxy;
+namespace Ajaxy\WP;
 
 if(!defined(ABSPATH)){
-    die('Ajaxy/WP_List_table packageis intended to be used with wordpress');
+    die('Ajaxy/List_table package is intended to be used with wordpress');
 }
 
 if (!class_exists('WP_List_Table')) {
