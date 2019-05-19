@@ -3,7 +3,7 @@
 namespace Ajaxy\WP;
 
 if(!defined(ABSPATH)){
-    die('Ajaxy/List_table package is intended to be used with wordpress');
+    die('Ajaxy/WP/List_table package is intended to be used with wordpress');
 }
 
 if (!class_exists('WP_List_Table')) {
