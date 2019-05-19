@@ -2,7 +2,7 @@
 
 namespace Ajaxy\WP;
 
-if(!defined(ABSPATH)){
+if (!defined('ABSPATH')) {
     die('Ajaxy/WP/List_table package is intended to be used with wordpress');
 }
 
