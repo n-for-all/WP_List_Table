@@ -19,7 +19,6 @@ class List_Table extends \WP_List_Table
     private $nav = array( 'top', 'bottom' );
     private $headers = array( 'top', 'bottom' );
 
-    private $on_data = null;
     private $total = 0;
     private $per_page = 10;
 
@@ -32,7 +31,7 @@ class List_Table extends \WP_List_Table
         }
     }
 
-    public function set_columns(AWT_List_Table_Columns $columns)
+    public function set_columns(List_Table_Columns $columns)
     {
         $this->columns = $columns;
         $this->_column_headers = $this->columns ? $this->columns->get_all_columns() : array();
@@ -48,7 +47,6 @@ class List_Table extends \WP_List_Table
         $this->items = $items;
         $this->total = is_array($items) ? count($items) : 0;
 
-        $currentPage = $this->get_pagenum();
         $this->set_pagination_args(array(
             'total_items' => $this->total,
             'per_page' => $this->per_page,
