@@ -6,7 +6,7 @@ class List_Table_Columns
 {
     private $columns = array();
     private $hidden = array();
-    private $sortable = array();
+    private $sortable = array(); 
 
     public function __construct($columns, $sortable = array(), $hidden = array())
     {
