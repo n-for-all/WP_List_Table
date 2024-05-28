@@ -15,7 +15,7 @@ class List_Table_Columns
     }
 
     /**
-     * get the columns.
+     * get the columns. 
      *
      * @since  1.0.0
      * @date   2019-05-19
